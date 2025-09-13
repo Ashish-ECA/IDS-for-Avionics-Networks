@@ -1,0 +1,44 @@
+# Intrusion Detection System (IDS) for Avionics Networks
+
+## Overview
+This project develops a prototype Intrusion Detection System (IDS) designed to monitor and detect anomalies in avionics communication networks such as MIL-STD-1553 or CAN bus. The IDS aims to identify suspicious activities like spoofing, message replay, and flooding attacks using anomaly detection techniques powered by machine learning.
+
+## Features
+- Real-time monitoring of avionics bus messages  
+- Anomaly detection model trained to identify malicious traffic patterns  
+- Simulation of common avionics attacks for validation  
+- Data logging for forensic and analysis purposes  
+- Visualization dashboard to observe traffic anomalies (optional)
+
+## How to Run
+1. Install dependencies:  
+pip install scapy numpy scikit-learn matplotlib
+2. Use provided scripts to simulate avionics bus traffic and inject attack scenarios.  
+3. Run the IDS script to capture traffic and detect anomalies in real-time.  
+4. Monitor console outputs or plots showing detected suspicious activities.
+
+## File Structure
+- `ids.py` — Main IDS script capturing and analyzing bus traffic  
+- `simulate_attacks.py` — Scripts to simulate spoofing, replay, and flooding attacks  
+- `models/` — Pretrained ML models for anomaly detection  
+- `logs/` — Captured traffic and alerts  
+- `README.md` — Project documentation and usage instructions
+
+## Methodology
+- Capture avionics network packets using packet sniffing tools.  
+- Extract feature vectors representing message timing, frequency, and content.  
+- Train machine learning models (e.g., Isolation Forest, One-Class SVM) on normal traffic to identify anomalies.  
+- Flag suspicious packets and trigger alerts for investigation.
+
+## Future Work
+- Extend IDS capabilities to support more avionics protocols (e.g., ARINC 429).  
+- Integrate with hardware-based real-time monitoring systems.  
+- Develop automated mitigation by actively filtering malicious traffic.
+
+## References
+- Aviation Today, “Cybersecurity in the Skies,” 2024  
+- Research papers on anomaly detection in MIL-STD-1553 and CAN bus networks  
+- Open-source IDS frameworks adapted for avionics
+
+## Contact
+ashishprajit308@gmail.com
