@@ -25,6 +25,12 @@ python ids.py
 
 *Note: You might need admin/root privileges for packet sniffing.*
 
+## Sample Output
+
+[INFO] IDS started successfully.
+[WARNING] Spoofing attack detected at 12:34:56.
+[INFO] Alert logged to logs/alerts.log
+
 ## Features
 - Real-time monitoring of avionics bus messages  
 - Anomaly detection model trained to identify malicious traffic patterns  
