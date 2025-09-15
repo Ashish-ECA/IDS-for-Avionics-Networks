@@ -43,6 +43,16 @@ ATTACK PACKET: [1757914546.0081494, 86, 112.71925388838596]
 NORMAL PACKET: [1757914546.0081596, 114, 43.762808722959754]
 NORMAL PACKET: [1757914546.0081654, 211, 40.612787170467925]
 
+## Visualization
+
+### IDS Prediction Output
+
+![IDS Prediction](docs/screenshots/ids_prediction.png)
+
+### Simulation Traffic Output
+
+![Simulation Traffic](docs/screenshots/simulation_traffic.png)
+
 ## Features
 - Real-time monitoring of avionics bus messages  
 - Anomaly detection model trained to identify malicious traffic patterns  
