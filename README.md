@@ -27,11 +27,21 @@ python ids.py
 
 ## Sample Output
 
-[INFO] IDS started successfully.
+IDS Prediction Output:
 
-[WARNING] Spoofing attack detected at 12:34:56.
+Packet: [1757914545.9572082, 98, 56.395989453279164], Status: Normal
+Packet: [1757914545.9673202, 19, 48.359695887656336], Status: Normal
+Packet: [1757914545.9776764, 218, 38.94254781555465], Status: Anomaly Detected!
+Packet: [1757914545.9884856, 182, 56.13083109547495], Status: Normal
+Packet: [1757914545.9980187, 168, 48.06514577171264], Status: Normal
 
-[INFO] Alert logged to logs/alerts.log
+Simulation Traffic Output:
+
+ATTACK PACKET: [1757914546.0081234, 209, 82.92051817065511]
+NORMAL PACKET: [1757914546.008142, 91, 58.332375178179355]
+ATTACK PACKET: [1757914546.0081494, 86, 112.71925388838596]
+NORMAL PACKET: [1757914546.0081596, 114, 43.762808722959754]
+NORMAL PACKET: [1757914546.0081654, 211, 40.612787170467925]
 
 ## Features
 - Real-time monitoring of avionics bus messages  
