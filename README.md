@@ -5,10 +5,12 @@ This project develops a prototype Intrusion Detection System (IDS) designed to m
 
 ## Installation
 
-Install required packages using: 
+Install required packages using:
+
 pip install -r requirements.txt
 
 Alternatively, you can install packages individually:  
+
 pip install scapy numpy scikit-learn matplotlib
 
 
@@ -17,11 +19,13 @@ pip install scapy numpy scikit-learn matplotlib
 ### Simulate Attacks
 
 Run this to simulate avionics attacks:
+
 python simulate_attacks.py
 
 ### Run the IDS
 
 Start the IDS to capture and analyze network traffic:
+
 python ids.py
 
 *Note: You might need admin/root privileges for packet sniffing.*
