@@ -3,6 +3,56 @@
 ## Overview
 This project develops a prototype Intrusion Detection System (IDS) designed to monitor and detect anomalies in avionics communication networks such as MIL-STD-1553 or CAN bus. The IDS aims to identify suspicious activities like spoofing, message replay, and flooding attacks using anomaly detection techniques powered by machine learning.
 
+## Installation
+
+Install required packages using:
+
+pip install -r requirements.txt
+
+## How to Run
+
+### Simulate Attacks
+
+Run this to simulate avionics attacks:
+
+python simulate_attacks.py
+
+### Run the IDS
+
+Start the IDS to capture and analyze network traffic:
+
+python ids.py
+
+*Note: You might need admin/root privileges for packet sniffing.*
+
+## Sample Output
+
+IDS Prediction Output:
+
+Packet: [1757914545.9572082, 98, 56.395989453279164], Status: Normal
+Packet: [1757914545.9673202, 19, 48.359695887656336], Status: Normal
+Packet: [1757914545.9776764, 218, 38.94254781555465], Status: Anomaly Detected!
+Packet: [1757914545.9884856, 182, 56.13083109547495], Status: Normal
+Packet: [1757914545.9980187, 168, 48.06514577171264], Status: Normal
+
+Simulation Traffic Output:
+
+ATTACK PACKET: [1757914546.0081234, 209, 82.92051817065511]
+NORMAL PACKET: [1757914546.008142, 91, 58.332375178179355]
+ATTACK PACKET: [1757914546.0081494, 86, 112.71925388838596]
+NORMAL PACKET: [1757914546.0081596, 114, 43.762808722959754]
+NORMAL PACKET: [1757914546.0081654, 211, 40.612787170467925]
+
+## Visualization
+
+### IDS Prediction Output
+
+![IDS Prediction](docs/screenshots/ids_prediction.png)
+
+### Simulation Traffic Output
+
+![Simulation Traffic](docs/screenshots/simulation_traffic.png)
+
 ## Features
 - Real-time monitoring of avionics bus messages  
 - Anomaly detection model trained to identify malicious traffic patterns  
