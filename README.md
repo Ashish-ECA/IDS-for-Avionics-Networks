@@ -28,7 +28,9 @@ python ids.py
 ## Sample Output
 
 [INFO] IDS started successfully.
+
 [WARNING] Spoofing attack detected at 12:34:56.
+
 [INFO] Alert logged to logs/alerts.log
 
 ## Features
