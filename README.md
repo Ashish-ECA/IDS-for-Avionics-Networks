@@ -3,6 +3,11 @@
 ## Overview
 This project develops a prototype Intrusion Detection System (IDS) designed to monitor and detect anomalies in avionics communication networks such as MIL-STD-1553 or CAN bus. The IDS aims to identify suspicious activities like spoofing, message replay, and flooding attacks using anomaly detection techniques powered by machine learning.
 
+## Installation
+Install required packages using:
+pip install -r requirements.txt.txt
+undefined
+
 ## Features
 - Real-time monitoring of avionics bus messages  
 - Anomaly detection model trained to identify malicious traffic patterns  
