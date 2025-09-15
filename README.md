@@ -9,6 +9,22 @@ Install required packages using:
 
 pip install -r requirements.txt
 
+## How to Run
+
+### Simulate Attacks
+
+Run this to simulate avionics attacks:
+
+python simulate_attacks.py
+
+### Run the IDS
+
+Start the IDS to capture and analyze network traffic:
+
+python ids.py
+
+*Note: You might need admin/root privileges for packet sniffing.*
+
 ## Features
 - Real-time monitoring of avionics bus messages  
 - Anomaly detection model trained to identify malicious traffic patterns  
