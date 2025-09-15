@@ -47,11 +47,11 @@ NORMAL PACKET: [1757914546.0081654, 211, 40.612787170467925]
 
 ### IDS Prediction Output
 
-![IDS Prediction](docs/screenshots/ids_prediction.png)
+![IDS Prediction](screenshots/ids_prediction.png)
 
 ### Simulation Traffic Output
 
-![Simulation Traffic](docs/screenshots/simulation_traffic.png)
+![Simulation Traffic](screenshots/simulation_traffic.png)
 
 ## Features
 - Real-time monitoring of avionics bus messages  
